@@ -1,6 +1,6 @@
 package com.codewithakiya;
 
-public class MainThread extends Thread{
+public class MainThread extends Thread {
 
     public static void main(String[] args) {
         Thread obj = Thread.currentThread();
@@ -18,7 +18,7 @@ public class MainThread extends Thread{
 
 }
 
-class ChildThread extends Thread{
+class ChildThread extends Thread {
     @Override
     public void run(){
         System.out.println("Child thread called");
